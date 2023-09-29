@@ -12,7 +12,7 @@ lint:
 	pod lib lint --allow-warnings
 
 carthage:
-	carthage build --platform ios --no-skip-current --use-xcframeworks
+	carthage build --platform ios --platform tvos --no-skip-current --use-xcframeworks --verbose
 
 archive: carthage
 	carthage archive Segment
