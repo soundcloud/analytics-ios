@@ -11,11 +11,13 @@ bootstrap:
 lint:
 	pod lib lint --allow-warnings
 
-carthage:
-	carthage build --platform ios --platform tvos --no-skip-current --use-xcframeworks --verbose
+carthage: carthage-ios carthage-tvos
 
-archive: carthage
-	carthage archive Segment
+carthage-ios:
+	carthage build --platform ios --no-skip-current --use-xcframeworks --verbose
+
+carthage-tvos:
+	carthage build --platform tvos --no-skip-current --use-xcframeworks --verbose
 
 clean-ios:
 	set -o pipefail && xcodebuild $(IOS_XCARGS) -scheme Segment clean | xcpretty
