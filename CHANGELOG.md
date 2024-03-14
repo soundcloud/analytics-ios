@@ -1,6 +1,10 @@
 Change Log
 ==========
 
+SC Version 4.1.9 *(14 March, 2024)*
+-----------------------------
+* [Chore] Rename `Segment` to `SegmentLegacy`
+
 SC Version 4.1.8 *(29 September, 2023)*
 -----------------------------
 * [Fix](https://github.com/segmentio/analytics-ios/pull/1052) Fix null setting entry crash on tvOS
