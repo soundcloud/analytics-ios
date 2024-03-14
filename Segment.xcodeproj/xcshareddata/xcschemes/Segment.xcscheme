@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EADEB85A1DECD080005322DA"
-               BuildableName = "Segment.framework"
-               BlueprintName = "Segment"
+               BuildableName = "SegmentLegacy.framework"
+               BlueprintName = "SegmentLegacy"
                ReferencedContainer = "container:Segment.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,8 +32,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EADEB85A1DECD080005322DA"
-            BuildableName = "Segment.framework"
-            BlueprintName = "Segment"
+            BuildableName = "SegmentLegacy.framework"
+            BlueprintName = "SegmentLegacy"
             ReferencedContainer = "container:Segment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EADEB85A1DECD080005322DA"
-            BuildableName = "Segment.framework"
-            BlueprintName = "Segment"
+            BuildableName = "SegmentLegacy.framework"
+            BlueprintName = "SegmentLegacy"
             ReferencedContainer = "container:Segment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EADEB85A1DECD080005322DA"
-            BuildableName = "Segment.framework"
-            BlueprintName = "Segment"
+            BuildableName = "SegmentLegacy.framework"
+            BlueprintName = "SegmentLegacy"
             ReferencedContainer = "container:Segment.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
